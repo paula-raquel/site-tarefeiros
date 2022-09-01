@@ -1,0 +1,16 @@
+#quemSomos{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 30px 30px 30px 30px;
+}
+
+#quemSomos img{
+    margin: 50px;
+
+}

@@ -1,0 +1,6 @@
+@import url(root.css);
+
+main section:nth-child(even){
+    background-color: var(--zebrado-section-even);
+}
+

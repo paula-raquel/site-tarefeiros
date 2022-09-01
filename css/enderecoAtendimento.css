@@ -1,0 +1,45 @@
+@import url(root.css);
+
+
+#atendimento {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#atendimento div {
+    margin: 30px 10px 10px 30px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: var(--zebrado-table-color)
+}
+
+tr:nth-child(odd) {
+    background-color: var(--white-color)
+}
+
+th {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+tfoot td{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
